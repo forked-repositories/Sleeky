@@ -1,5 +1,5 @@
 <script src="//code.jquery.com/jquery-3.4.1.min.js"></script>
-<script src="https://www.google.com/recaptcha/api.js?render=<?php echo recaptchaV3SiteKey ?>"></script>
+<script src="https://recaptcha.google.cn/recaptcha/api.js?render=<?php echo recaptchaV3SiteKey ?>"></script>
 
 <script>
 	$('#shortenlink').submit(function(event) {
